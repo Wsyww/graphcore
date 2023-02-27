@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/graphcore/static/css/main.12a2fa7f.css",
+    "main.js": "/graphcore/static/js/main.d5662aec.js",
+    "index.html": "/graphcore/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.12a2fa7f.css",
+    "static/js/main.d5662aec.js"
+  ]
+}
