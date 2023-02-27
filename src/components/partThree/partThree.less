@@ -1,0 +1,92 @@
+.part-three {
+    background-color: #FAF8F9;
+    display: flex;
+    justify-content: center;
+    .three-box {
+        width: 1260px;
+        padding-top: 30px;
+        padding-bottom: 35px;
+        .three-title {
+            margin-bottom: 10px;
+            font-size: 35px;
+            font-weight: bold;
+            line-height: 39px;
+        }
+        .three-des {
+            margin-bottom: 20px;
+        }
+        .three-content {
+            ul {
+                padding: 0;
+            }
+            li:nth-child(2n) {
+                flex-direction: row-reverse;
+            }
+            .content-item {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                min-height: 370px;
+                .left {
+                    width: 684px;
+                    background-color: #fff;
+                    padding: 15px 0;
+                    // margin-right: 10px;
+                    .title-0 {
+                        padding: 15px;
+                        font-size: 22px;
+                    }
+                    .left-content {
+                        display: flex;
+                        .left-img {
+                            padding: 15px;
+                            img {
+                                width: 390px;
+                            }
+                        }
+                        .left-text {
+                            padding: 15px 15px 0 30px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            .des-0 {
+                                margin-bottom: 20px;
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 1.56em;
+                            }
+                            .oper-0 {
+                                padding: 12px;
+                                color: @primary-color;
+                            }
+                        }
+                    }
+                }
+                .right {
+                    width: 566px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .right-card {
+                        padding: 15px 15px 10px;
+                        background-color: #fff;
+                        .title-1 {
+                            font-size: 22px;
+                            margin-bottom: 20px;
+                        }
+                        .des-1 {
+                            margin-bottom: 20px;
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 1.56em;
+                        }
+                        .oper-1 {
+                            padding: 12px;
+                            color: @primary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,70 @@
+.part-two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .ant-tabs-nav {
+        margin-bottom: 0;
+        &:before {
+            display: none;
+        }
+        .ant-tabs-tab-wrap {
+            width: 1010px;
+            &:before {
+                display: none;
+            }
+        }
+        .ant-tabs-ink-bar {
+            background: transparent;
+        }
+        .ant-tabs-nav-list {
+            .ant-tabs-tab {
+                padding: 20px 5px 10px;
+                font-size: 20px;
+                &.ant-tabs-tab-active {
+                    border-bottom: 2px solid @primary-color;
+                    .ant-tabs-tab-btn {
+                        color: @primary-color;
+                        :hover {
+                            color: @primary-color;
+                        }
+                    }
+                }
+                .ant-tabs-tab-btn:hover {
+                    color: @primary-color;
+                }
+            }
+        }
+    }
+    
+    
+    .two-box {
+        width: 1030px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        .two-title {
+            font-weight: bold;
+            font-family: "Graphcore Quantized Mixed", "AktivGrotesk WCNSG Bold", sans-serif;
+            font-size: 35px;
+            line-height: 39px;
+        }
+        .two-content {
+            .content-detail {
+                display: flex;
+                .left {
+                    width: 693px;
+                    p {
+                        width: 643px;
+                        margin-bottom: 20px;
+                        line-height: 1.56em;
+                    }
+                }
+                .right {
+                    font-weight: 600;
+                    line-height: 2;
+                }
+            }
+        }
+    }
+}
